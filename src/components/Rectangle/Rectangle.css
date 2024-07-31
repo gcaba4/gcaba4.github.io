@@ -1,0 +1,5 @@
+.rectangle {
+    display: flex;
+    gap: 1px;
+    flex-Shrink: 0;
+}
