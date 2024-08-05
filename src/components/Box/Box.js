@@ -1,12 +1,15 @@
 import React from "react"
 
-export default function Box({ id }) {
+import "./box.css"
 
-    return <div key={id} className="box" 
-    style={{
-        width: '100px',
-        height: '100px',
-        backgroundColor: 'blue',
-        borderColor: 'red',
-    }} />;
+export default function Box({ id, backgroundColor }) {
+
+    return <div
+        key={id}
+        className="box"
+        style={backgroundColor && {
+            backgroundColor: backgroundColor
+        }}
+        onClick={(e) => console.log(id)}
+    />;
 }

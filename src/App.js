@@ -1,8 +1,6 @@
 import React from "react"
 import Rectangle from "./components/Rectangle/Rectangle";
 
-import './App.css';
-
 const getNumberOfBoxes = () => Math.ceil(window.innerWidth / 100) 
 
 function App() {
