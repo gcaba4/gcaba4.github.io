@@ -1,7 +1,10 @@
 .box {
-    width: 100px;
     height: 100px;
     background-color: blue;
     border-color: red;
     cursor: pointer;
+}
+
+.fixedWidth {
+    width: 100px;
 }

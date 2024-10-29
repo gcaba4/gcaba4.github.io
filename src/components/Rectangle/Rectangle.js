@@ -1,12 +1,11 @@
 import React from "react"
-import Box from "../Box/box"
+import Box from "../../components/Box/box"
 
 import "./Rectangle.css";
 
 export default function Rectangle ({ id, size, boxArrays }) {
   size = size ?? 6
   boxArrays = boxArrays ?? new Array(size).fill(0);
-  console.log(size)
   return (
     <div key={id ?? "rectangle"} className={"rectangle"}>
       {boxArrays.map((x, i) => 
