@@ -2,15 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>:D</title>
+    <title>Glynn's website</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="main">
-      <p>Glynn's Website</p>
-      <div>
-          <p>Finish me</p>
-      </div>
-    </div>
+    <main>
+      <h1>Glynn Caballero</h1>
+      <section>
+        <h2>About me</h2>
+        <p>I like to code, but I'm not very good at it. So I keep doing it because I enjoy it, and over time I've learned a couple of things.</p>
+      </section>
+      <section>
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <p><a href="https://jser.pro/ddir/build-a-todo-app-in-vanilla-javascript">Jser's Deeper Dive Into React</a> | <button id="showHideToDo" onclick="showHideToDo()">Show</button></p>
+            <div id="basicToDo"></div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="./script.js"></script>
   </body>
 </html>
