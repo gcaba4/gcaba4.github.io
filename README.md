@@ -1,8 +1,9 @@
 About me:
-  I like computers :)
+- I like computers :)
 
 Skills:
-  Procrastinating
-  Self-Doubt
-  Willingness to fail
-  Persistent
+- Procrastinating
+- Self-Doubt
+- Willingness to fail
+- Persistent
+- ChatGPT Account

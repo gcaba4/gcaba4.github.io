@@ -6,22 +6,41 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main>
+    <header>
       <h1>Glynn Caballero</h1>
-      <section>
-        <h2>About me</h2>
-        <p>I like to code, but I'm not very good at it. So I keep doing it because I enjoy it, and over time I've learned a couple of things.</p>
-      </section>
-      <section>
-        <h2>Projects</h2>
-        <ul>
-          <li>
-            <p><a href="https://jser.pro/ddir/build-a-todo-app-in-vanilla-javascript">Jser's Deeper Dive Into React</a> | <button id="showHideToDo" onclick="showHideToDo()">Show</button></p>
-            <div id="basicToDo"></div>
-          </li>
-        </ul>
-      </section>
+      <nav>
+        <a href="#about">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <section id="about">
+          <h2>About me</h2>
+          <p>I like to code, but I'm not very good at it. So I keep doing it because I enjoy it, and over time I've learned a couple of things.</p>
+        </section>
+        <section id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <p><a href="https://jser.pro/ddir/build-a-todo-app-in-vanilla-javascript">Jser's Deeper Dive Into React</a> | <button id="showHideToDo" onclick="showHideToDo()">Show</button></p>
+              <div id="basicToDo"></div>
+            </li>
+          </ul>
+        </section>
+        <section id="contact">
+          <h2>Contact</h2>
+          <p><a href="https://github.com/gcaba4">Github</a></p>
+        </section>
+      </div>
     </main>
+
+    <footer>
+      <p>&copy; Glynn &#175;\_(&#12484;)_/&#175; Caballero. All rights reserved.</p>
+    </footer>
+
     <script src="./script.js"></script>
   </body>
 </html>
